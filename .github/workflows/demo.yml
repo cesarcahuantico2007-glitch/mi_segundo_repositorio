@@ -12,3 +12,9 @@ jobs:
 
     - name: Segundo mensaje
       run: echo "Este es el segundo paso automático"
+
+    - name: Ver archivos del repositorio
+      run: ls
+
+    - name: Identificación
+      run: echo "Ejecutado por Cesar Cahuantico Huaraya"
