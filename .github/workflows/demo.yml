@@ -1,0 +1,20 @@
+name: Demo clase
+
+on: [push]
+
+jobs:
+  mensaje:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Primer mensaje
+      run: echo "Hola desde GitHub Actions"
+
+    - name: Segundo mensaje
+      run: echo "Este es el segundo paso automático"
+
+    - name: Ver archivos del repositorio
+      run: ls
+
+    - name: Identificación
+      run: echo "Ejecutado por Cesar Cahuantico Huaraya"
